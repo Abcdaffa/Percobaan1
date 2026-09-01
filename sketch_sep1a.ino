@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   digitalWrite(LED_PIN, HIGH);
   Serial.println("LED MENYALA");
-  delay(1000);
+  delay(1000); //komen
 
   digitalWrite(LED_PIN, LOW);
   Serial.println("LED MATI");
